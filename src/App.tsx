@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-function App() {
+import Home from './pages/Home';
+import Channels from './pages/Channels';
+import Channel from './pages/Channel';
+import Courses from './pages/Courses';
+import Blogs from './pages/Blogs';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Route exact path='/' component={Home} />
+      <Route path='/channels' component={Channels} />
+      <Route path='/channel/:id' component={Channel} />
+      <Route path='/courses' component={Courses} />
+      <Route path='/blogs' component={Blogs} />
+      <Footer />
+    </Router>
   );
 }
 
