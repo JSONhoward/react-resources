@@ -1,5 +1,3 @@
-import { FaMedium, FaDev } from 'react-icons/fa'
-
 import cleverP from '../images/clever-programmer-icon.jpg'
 import devEd from '../images/dev-ed-icon.jpg'
 import fireship from '../images/fireship-icon.jpg'
@@ -12,7 +10,8 @@ import smashingMagazine from '../images/smashing-magazine.svg'
 import codeCademy from '../images/codecademy.svg'
 import udemy from '../images/udemy-icon.svg'
 import wesBos from '../images/wes-bos-icon.png'
-import { IconType } from 'react-icons/lib'
+import medium from '../images/medium-icon.png'
+import devTo from '../images/dev-to.svg'
 
 export const webDevChannels: { name: string, id: string, icon: string }[] = [
     {
@@ -110,16 +109,16 @@ export const onlineCourses: {platform: string, name: string, url: string, icon: 
     }
 ]
 
-export const blogs: {name: string, url: string, icon: string | IconType}[] = [
+export const onlineBlogs: {name: string, url: string, icon: string}[] = [
     {
         name: 'Medium',
         url: 'https://medium.com/',
-        icon: FaMedium
+        icon: medium
     },
     {
         name: 'Dev.to',
         url: 'https://dev.to/',
-        icon: FaDev
+        icon: devTo
     },
     {
         name: 'Sitepoint',

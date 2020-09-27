@@ -14,19 +14,29 @@ color: #6F6F6F;
 font-size: 1.5rem;
 `
 
-export const Img = styled('img')<{left: number}>`
+export const Img = styled('img')<{state: string, circle: boolean}>`
 position: absolute;
-left: ${({left}) => left + '%'};
-border-radius: 50%;
-height: 7.5rem;
-width: 7.5rem;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: ${({circle}) => circle ? '50%' : 'none'};
+height: 10rem;
+width: 10rem;
 box-shadow: 2px 2px 5px rgba(0,0,0,.5);
-transition: all 500ms ease-in-out;
+transition: all 1s ease-in-out;
+opacity: ${({state}) => {
+    const obj: {[key: string]: number} = {
+        'entering': 1,
+        'entered': 1,
+        'exiting': 0,
+        'exited': 0
+    }
+    return obj[state]
+}};
 
 &:hover {
-    z-index: 1;
-    height: 8rem;
-    width: 8rem;
+    height: 12rem;
+    width: 12rem;
 }
 `
 
@@ -39,18 +49,26 @@ width: 100%;
 `
 
 export const SectionDescription2 = styled('div')`
-
+position: relative;
+display: flex;
+align-items: center;
+height: 50%;
+width: 100%;
 `
 
 export const SectionDescription3 = styled('div')`
-
+position: relative;
+display: flex;
+align-items: center;
+height: 50%;
+width: 100%;
 `
 
 export const Section = styled('div')`
 position: relative;
 display: flex;
 flex-direction: column;
-justify-content: center;
-height: 425px;
+justify-content: space-evenly;
+height: 300px;
 width: 100%;
 `

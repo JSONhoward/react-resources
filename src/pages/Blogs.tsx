@@ -1,19 +1,12 @@
 import React from 'react'
-import Hero from '../components/Hero';
+
 import Layout from '../components/Layout/index';
-import PageHeading from '../components/PageHeading';
-import SpinningIcon from '../components/SpinningIcon';
-import { useLocation } from 'react-router-dom';
+import BlogList from '../components/BlogList/BlogList';
 
 const Blogs = () => {
-    const path: string = useLocation().pathname
-
     return (
         <Layout>
-            <Hero>
-            <PageHeading path={path} />
-            <SpinningIcon />
-            </Hero>
+            <BlogList />
         </Layout>
     )
 }

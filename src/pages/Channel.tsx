@@ -1,6 +1,5 @@
 import React from 'react'
 import { RouteComponentProps } from 'react-router-dom'
-import Hero from '../components/Hero';
 
 import Layout from '../components/Layout/index';
 import VideoGrid from '../components/VideoGrid';
@@ -33,7 +32,6 @@ const Channel: React.FC<RouteComponentProps<MatchParams>> = ({ match }) => {
         <>
             {portalOpen && <VideoPlayer url={currentVideo} close={closePortal} />}
             <Layout>
-                <Hero />
                 <VideoGrid channelId={id} portalOpen={portalOpen} currentVideo={currentVideo} openPortal={openPortal} closePortal={closePortal}/>
             </Layout>
         </>

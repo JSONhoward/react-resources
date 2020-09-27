@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const StyledLayout = styled('div')`
 position: relative;
 display: flex;
-min-height: 100vh;
+justify-content: center;
+min-height: calc(100vh - 8rem);
 flex-direction: column;
 `

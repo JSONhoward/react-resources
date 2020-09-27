@@ -13,8 +13,8 @@ type Props = {
 const ChannelList: React.FC<Props> = ({ openPortal }) => {
     const channels = webDevChannels.map((el, i) => {
         return (
-            <React.Suspense fallback={<ChannelsLoading></ChannelsLoading>}>
-                <Channels key={i} openPortal={openPortal} icon={el.icon} title={el.name} channelId={el.id} />
+            <React.Suspense key={i} fallback={<ChannelsLoading></ChannelsLoading>}>
+                <Channels openPortal={openPortal} icon={el.icon} title={el.name} channelId={el.id} />
             </React.Suspense>
         )
     })
