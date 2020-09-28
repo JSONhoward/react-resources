@@ -32,7 +32,7 @@ const Channel: React.FC<RouteComponentProps<MatchParams>> = ({ match }) => {
         <>
             {portalOpen && <VideoPlayer url={currentVideo} close={closePortal} />}
             <Layout>
-                <VideoGrid channelId={id} portalOpen={portalOpen} currentVideo={currentVideo} openPortal={openPortal} closePortal={closePortal}/>
+                <VideoGrid channelId={id} openPortal={openPortal}/>
             </Layout>
         </>
     )

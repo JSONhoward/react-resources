@@ -9,6 +9,14 @@ width: 90%;
 box-shadow: 1px 1px 15px rgba(0,0,0,.25);
 border-radius: 5px;
 margin: 2rem;
+
+@media screen and (max-width: 800px) {
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    height: 100px;
+}
 `
 
 export const ChannelsLoading = styled('div')`
@@ -29,7 +37,7 @@ flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 height: 100%;
-width: 25%;
+width: 250px;
 overflow: hidden;
 margin: 0 0rem;
 
@@ -41,10 +49,22 @@ border-radius: 50%;
 box-shadow: 1px 1px 5px rgba(0,0,0,.25);
 cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    width: 100px;
+}
 `
 
 export const ChannelName = styled('p')`
+text-align: center;
 
+@media screen and (max-width: 600px) {
+    display: none;
+}
 `
 
 export const ChannelVideos = styled('div')`

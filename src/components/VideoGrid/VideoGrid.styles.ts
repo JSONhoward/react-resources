@@ -7,7 +7,7 @@ padding: 1rem;
 
 export const Videos = styled('div')`
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 justify-items: center;
 gap: 2rem;
 `
@@ -17,8 +17,7 @@ position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 300px;
-width: 500px;
+height: fit-content;
 overflow: hidden;
 box-shadow: 1px 1px 5px rgba(0,0,0,.5);
 

@@ -5,8 +5,7 @@ import { ChannelIcon, StyledChannels, ChannelName, ChannelVideos, More, VideoIma
 import { getVideoList } from '../../../utils/youtube-search';
 
 import { Link } from 'react-router-dom';
-import { mockArray } from '../../../utils/constants';
-
+// import { mockArray } from '../../../utils/constants';
 
 type Props = {
     icon: string,
@@ -17,17 +16,16 @@ type Props = {
 
 const Channels: React.FC<Props> = ({ icon, title, channelId, openPortal }) => {
     const [videoImages, setVideoImages] = React.useState<Video[] | undefined>(undefined)
-    const [startTransition, isPending] = React.unstable_useTransition({timeoutMs: 2000})
-
-    // React.useEffect(() => {
-    //     getVideoList(channelId, 3)
-    //     .then(videos => startTransition(() => setVideoImages(videos)))
-    //     .catch(error => console.error('Error: ', error))
-    // }, [])
 
     React.useEffect(() => {
-        startTransition(() => setVideoImages(mockArray))
-    },[startTransition])
+        getVideoList(channelId, 3)
+        .then(videos => setVideoImages(videos))
+        .catch(error => console.error('Error: ', error))
+    }, [])
+
+    // React.useEffect(() => {
+    //     setVideoImages(mockArray)
+    // },[])
 
     const videoImagesList = videoImages?.map((el, i) => {
         return (

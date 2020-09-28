@@ -1,6 +1,7 @@
 import React from 'react'
+import { FaExternalLinkAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { StyledFooter, Copyright } from './Footer.styles';
+import { StyledFooter, Copyright, GithubLink } from './Footer.styles';
 
 const Footer = () => {
     return (
@@ -8,6 +9,10 @@ const Footer = () => {
             <Copyright>
             Copyright &copy; {new Date().getFullYear()}<Link to={'/'}><p>React Resources</p></Link>
             </Copyright>
+            <GithubLink>
+            <p onClick={() => window.open('https://github.com/JSONhoward/react-resources', '_blank')}>GitHub</p> 
+                <FaExternalLinkAlt size={'10px'} />
+            </GithubLink>
         </StyledFooter>
     )
 }

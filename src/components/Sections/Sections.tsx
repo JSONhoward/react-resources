@@ -1,7 +1,8 @@
 import React from 'react'
-import { StyledSections, SectionDescription1, SectionTitle, Section, SectionDescription2, SectionDescription3, Img } from './Sections.styled';
+import { StyledSections, SectionDescription, SectionTitle, Section, Img } from './Sections.styled';
 import { webDevChannels, onlineCourses, onlineBlogs } from '../../utils/constants';
 import { Transition } from 'react-transition-group';
+import { Link } from 'react-router-dom';
 
 const Sections = () => {
     const [tick, setTick] = React.useState(0)
@@ -17,7 +18,9 @@ const Sections = () => {
             <Transition key={i} in={i === tick % webDevChannels.length} timeout={1500}>
                 {
                     state => (
-                        <Img circle={true} state={state} src={webDevChannels[i].icon} alt={webDevChannels[i].name} />
+                        <Link to='channels'>
+                            <Img circle={true} state={state} src={webDevChannels[i].icon} alt={webDevChannels[i].name} />
+                        </Link>
                     )
                 }
             </Transition>
@@ -29,7 +32,9 @@ const Sections = () => {
             <Transition key={i} in={i === tick % onlineCourses.length} timeout={1500}>
                 {
                     state => (
-                        <Img circle={false} state={state} src={onlineCourses[i].icon} alt={onlineCourses[i].name} />
+                        <Link to='/courses'>
+                            <Img circle={false} state={state} src={onlineCourses[i].icon} alt={onlineCourses[i].name} />
+                        </Link>
                     )
                 }
             </Transition>
@@ -41,7 +46,9 @@ const Sections = () => {
             <Transition key={i} in={i === tick % onlineBlogs.length} timeout={1500}>
                 {
                     state => (
-                        <Img circle={true} state={state} src={onlineBlogs[i].icon} alt={onlineBlogs[i].name} />
+                        <Link to='/blogs'>
+                            <Img circle={true} state={state} src={onlineBlogs[i].icon} alt={onlineBlogs[i].name} />
+                        </Link>
                     )
                 }
             </Transition>
@@ -52,27 +59,33 @@ const Sections = () => {
         <StyledSections>
             <Section>
                 <SectionTitle>
-                    Youtube Channels
+                    <Link to='/channels'>
+                        Youtube Channels
+                    </Link>
                 </SectionTitle>
-                <SectionDescription1>
+                <SectionDescription>
                     {channelImages}
-                </SectionDescription1>
+                </SectionDescription>
             </Section>
             <Section>
                 <SectionTitle>
-                    Online Courses
+                    <Link to='/courses'>
+                        Online Courses
+                    </Link>
                 </SectionTitle>
-                <SectionDescription2>
+                <SectionDescription>
                     {courseImages}
-                </SectionDescription2>
+                </SectionDescription>
             </Section>
             <Section>
                 <SectionTitle>
-                    Blogs
+                    <Link to='/blogs'>
+                        Blogs
+                    </Link>
                 </SectionTitle>
-                <SectionDescription3>
-                {blogImages}
-                </SectionDescription3>
+                <SectionDescription>
+                    {blogImages}
+                </SectionDescription>
             </Section>
 
         </StyledSections>

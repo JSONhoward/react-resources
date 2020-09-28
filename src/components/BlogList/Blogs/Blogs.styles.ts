@@ -5,7 +5,7 @@ position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 250px;
+height: 200px;
 box-shadow: 1px 1px 15px rgba(0,0,0,.25);
 border-radius: 5px;
 margin: 2rem;

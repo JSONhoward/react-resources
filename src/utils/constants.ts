@@ -126,7 +126,7 @@ export const onlineBlogs: {name: string, url: string, icon: string}[] = [
         icon: sitePoint
     },
     {
-        name: 'SmashingMagazine',
+        name: 'Smashing Magazine',
         url: 'https://www.smashingmagazine.com/',
         icon: smashingMagazine
     },

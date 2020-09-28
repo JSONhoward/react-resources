@@ -8,7 +8,7 @@ import Blogs from './Blogs';
 const BlogList = () => {
     const blogs = onlineBlogs.map((el, i) => {
         return (
-            <Blogs icon={el.icon} title={el.name} url={el.url}/>
+            <Blogs key={i} icon={el.icon} title={el.name} url={el.url}/>
         )
     })
 

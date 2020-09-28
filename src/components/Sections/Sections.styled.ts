@@ -10,8 +10,12 @@ padding: .5rem;
 
 export  const SectionTitle = styled('p')`
 text-align: center;
-color: #6F6F6F;
 font-size: 1.5rem;
+
+a, a:visited, a:active {
+color: #6F6F6F;
+text-decoration: none;
+}
 `
 
 export const Img = styled('img')<{state: string, circle: boolean}>`
@@ -40,23 +44,7 @@ opacity: ${({state}) => {
 }
 `
 
-export const SectionDescription1 = styled('div')`
-position: relative;
-display: flex;
-align-items: center;
-height: 50%;
-width: 100%;
-`
-
-export const SectionDescription2 = styled('div')`
-position: relative;
-display: flex;
-align-items: center;
-height: 50%;
-width: 100%;
-`
-
-export const SectionDescription3 = styled('div')`
+export const SectionDescription = styled('div')`
 position: relative;
 display: flex;
 align-items: center;

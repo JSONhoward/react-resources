@@ -8,4 +8,10 @@ h1 {
     color: ${({theme: {ReactPrimary}}) => ReactPrimary};
     font-size: 4rem;
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
 `
