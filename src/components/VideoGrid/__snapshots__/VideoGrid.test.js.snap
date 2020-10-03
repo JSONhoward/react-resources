@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoGrid Tests Snapshot Test 1`] = `
+<div
+  className="sc-bdnylx CtqKO"
+>
+  <div
+    className="sc-gtssRu hyjofv"
+  />
+</div>
+`;

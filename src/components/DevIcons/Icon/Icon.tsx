@@ -10,7 +10,7 @@ type Props = {
 const Icon: React.FC<Props> = ({icon, title}) => {
     return (
         <StyledIcon>
-            <img src={icon} alt={title} />
+            <img data-testid={`devIcon${title}`} src={icon} alt={title} />
         </StyledIcon>
     )
 }

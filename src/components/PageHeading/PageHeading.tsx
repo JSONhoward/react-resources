@@ -3,24 +3,13 @@ import React from 'react'
 import { StyledPageHeading } from './PageHeading.styles';
 
 type Props = {
-    path: string
+    heading: string
 }
 
-const PageHeading: React.FC<Props> = ({ path }) => {
+const PageHeading: React.FC<Props> = ({ heading }) => {
     return (
         <StyledPageHeading>
-            {
-                path === '/channels' && <h1>Channels</h1>
-            }
-            {
-                path === '/' && <h1>React Resources</h1>
-            }
-            {
-                path === '/courses' && <h1>Courses</h1>
-            }
-            {
-                path === '/blogs' && <h1>Blogs</h1>
-            }
+            <h1>{heading}</h1>
         </StyledPageHeading>
     )
 }

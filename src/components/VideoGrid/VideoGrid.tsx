@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaPlay } from 'react-icons/fa';
-// import { mockArray } from '../../utils/constants';
-import { getVideoList } from '../../utils/youtube-search';
+import { mockArray } from '../../utils/constants';
+// import { getVideoList } from '../../utils/youtube-search';
 
 import { StyledVideoGrid, SingleVideo, Videos, VideoImagePlay } from './VideoGrid.styles';
 
@@ -13,15 +13,15 @@ type Props = {
 const VideoGrid: React.FC<Props> = ({ channelId, openPortal }) => {
     const [videoImages, setVideoImages] = React.useState<Video[] | undefined>(undefined)
 
-    React.useEffect(() => {
-        getVideoList(channelId, 10)
-        .then(videos => setVideoImages(videos))
-        .catch(error => console.error('Error: ', error))
-    }, [])
-
     // React.useEffect(() => {
-    //     setVideoImages(mockArray)
-    // },[])
+    //     getVideoList(channelId, 10)
+    //     .then(videos => setVideoImages(videos))
+    //     .catch(error => console.error('Error: ', error))
+    // }, [])
+
+    React.useEffect(() => {
+        setVideoImages(mockArray)
+    },[])
 
     const videoList = videoImages?.map((el, i) => {
         return (
@@ -30,7 +30,7 @@ const VideoGrid: React.FC<Props> = ({ channelId, openPortal }) => {
                     <span>{el.title}</span>
                     <FaPlay size={'3rem'} color={'white'} />
                 </VideoImagePlay>
-                <img src={el.thumb} alt={el.title} />
+                <img data-testid={`singleVideoImage${i}`} src={el.thumb} alt={el.title} />
             </SingleVideo>
         )
     })

@@ -100,9 +100,14 @@ align-items: center;
 justify-content: flex-end;
 height: 100%;
 width: 10rem;
-color: white;
+color: whitesmoke;
 font-size: .9rem;
 cursor: pointer;
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 svg {
     color: ${({ theme: { ReactLightGrey } }) => ReactLightGrey};

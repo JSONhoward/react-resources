@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DevIcon Tests Snapshot Test 1`] = `
+<div
+  className="sc-bdnylx dNXLBy"
+>
+  <div
+    className="sc-gtssRu kliTqT"
+  >
+    <img
+      alt="Web Dev Simplified"
+      data-testid="devIconWeb Dev Simplified"
+      src="web-dev-simplified-icon.jpg"
+    />
+  </div>
+  <div
+    className="sc-gtssRu kliTqT"
+  >
+    <img
+      alt="Dev Ed"
+      data-testid="devIconDev Ed"
+      src="dev-ed-icon.jpg"
+    />
+  </div>
+  <div
+    className="sc-gtssRu kliTqT"
+  >
+    <img
+      alt="Net Ninja"
+      data-testid="devIconNet Ninja"
+      src="net-ninja-icon.jpg"
+    />
+  </div>
+  <div
+    className="sc-gtssRu kliTqT"
+  >
+    <img
+      alt="Fireship"
+      data-testid="devIconFireship"
+      src="fireship-icon.jpg"
+    />
+  </div>
+  <div
+    className="sc-gtssRu kliTqT"
+  >
+    <img
+      alt="Free Code Camp"
+      data-testid="devIconFree Code Camp"
+      src="free-code-camp-icon.jpg"
+    />
+  </div>
+  <div
+    className="sc-gtssRu kliTqT"
+  >
+    <img
+      alt="Clever Programmer"
+      data-testid="devIconClever Programmer"
+      src="clever-programmer-icon.jpg"
+    />
+  </div>
+</div>
+`;

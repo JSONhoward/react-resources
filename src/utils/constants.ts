@@ -50,33 +50,33 @@ export const mockArray: {id: string, url: string, title: string, description: st
     {
         id: 'someId',
         url: 'https://www.youtube.com/watch?v=Faz6jkFTaa0',
-        title: 'title goes here',
+        title: 'title 1 goes here',
         description: 'lorem ipsum',
         thumb: `https://via.placeholder.com/300x200`
     },
     {
         id: 'someId',
         url: 'https://www.youtube.com/watch?v=Faz6jkFTaa0',
-        title: 'title goes here',
+        title: 'title 2 goes here',
         description: 'lorem ipsum',
         thumb: `https://via.placeholder.com/300x200`
     }, {
         id: 'someId',
         url: 'https://www.youtube.com/watch?v=Faz6jkFTaa0',
-        title: 'title goes here',
+        title: 'title 3 goes here',
         description: 'lorem ipsum',
         thumb: `https://via.placeholder.com/300x200`
     }, {
         id: 'someId',
         url: 'https://www.youtube.com/watch?v=Faz6jkFTaa0',
-        title: 'title goes here',
+        title: 'title 4 goes here',
         description: 'lorem ipsum',
         thumb: `https://via.placeholder.com/300x200`
     },
     {
         id: 'someId',
         url: 'https://www.youtube.com/watch?v=Faz6jkFTaa0',
-        title: 'title goes here',
+        title: 'title 5 goes here',
         description: 'lorem ipsum',
         thumb: `https://via.placeholder.com/300x200`
     }
@@ -122,7 +122,7 @@ export const onlineBlogs: {name: string, url: string, icon: string}[] = [
     },
     {
         name: 'Sitepoint',
-        url: 'https://www.sitepoint.com/',
+        url: 'https://www.sitepoint.com/blog',
         icon: sitePoint
     },
     {

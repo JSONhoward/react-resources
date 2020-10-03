@@ -13,13 +13,13 @@ const Sections = () => {
         return () => clearInterval(ticker)
     }, [])
 
-    const channelImages = webDevChannels.map((el, i) => {
+    const channelImages = webDevChannels.map((_, i) => {
         return (
             <Transition key={i} in={i === tick % webDevChannels.length} timeout={1500}>
                 {
                     state => (
-                        <Link to='channels'>
-                            <Img circle={true} state={state} src={webDevChannels[i].icon} alt={webDevChannels[i].name} />
+                        <Link data-testid={`sectionChannelLink${i}`} to='/channels'>
+                            <Img data-testid={`sectionChannelIcon${i}`} circle={true} state={state} src={webDevChannels[i].icon} alt={webDevChannels[i].name} />
                         </Link>
                     )
                 }
@@ -27,13 +27,13 @@ const Sections = () => {
         )
     })
 
-    const courseImages = onlineCourses.map((el, i) => {
+    const courseImages = onlineCourses.map((_, i) => {
         return (
             <Transition key={i} in={i === tick % onlineCourses.length} timeout={1500}>
                 {
                     state => (
-                        <Link to='/courses'>
-                            <Img circle={false} state={state} src={onlineCourses[i].icon} alt={onlineCourses[i].name} />
+                        <Link data-testid={`sectionCourseLink${i}`} to='/courses'>
+                            <Img data-testid={`sectionCourseIcon${i}`} circle={false} state={state} src={onlineCourses[i].icon} alt={onlineCourses[i].name} />
                         </Link>
                     )
                 }
@@ -41,13 +41,13 @@ const Sections = () => {
         )
     })
 
-    const blogImages = onlineBlogs.map((el, i) => {
+    const blogImages = onlineBlogs.map((_, i) => {
         return (
             <Transition key={i} in={i === tick % onlineBlogs.length} timeout={1500}>
                 {
                     state => (
-                        <Link to='/blogs'>
-                            <Img circle={true} state={state} src={onlineBlogs[i].icon} alt={onlineBlogs[i].name} />
+                        <Link data-testid={`sectionBlogLink${i}`} to='/blogs'>
+                            <Img data-testid={`sectionBlogIcon${i}`} circle={true} state={state} src={onlineBlogs[i].icon} alt={onlineBlogs[i].name} />
                         </Link>
                     )
                 }

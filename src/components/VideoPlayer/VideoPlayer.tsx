@@ -32,7 +32,7 @@ const VideoPlayer: React.FC<Props> = ({url, close}) => {
             {
                 state => (
                     <StyledVideoPlayer onClick={close} id='portal' state={state}>
-                        <ReactPlayer id='player' url={url} />
+                        <ReactPlayer data-testid='reactVideoPlayer' id='player' url={url} />
                     </StyledVideoPlayer>
                 )
             }

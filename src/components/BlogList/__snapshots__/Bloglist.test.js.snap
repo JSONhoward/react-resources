@@ -1,0 +1,1485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blo snapshot matches 1`] = `
+<div
+  className="sc-bdnylx fzNgoh"
+>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="medium-icon.png"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Medium
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://medium.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="dev-to.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Dev.to
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://dev.to/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="sitepoint.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Sitepoint
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.sitepoint.com/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="smashing-magazine.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Smashing Magazine
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.smashingmagazine.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="rwieruch-icon.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      RobinWieruch
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.robinwieruch.de/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Blog snapshot matches 1`] = `
+<div
+  className="sc-bdnylx fzNgoh"
+>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="medium-icon.png"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Medium
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://medium.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="dev-to.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Dev.to
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://dev.to/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="sitepoint.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Sitepoint
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.sitepoint.com/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="smashing-magazine.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Smashing Magazine
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.smashingmagazine.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="rwieruch-icon.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      RobinWieruch
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.robinwieruch.de/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`BlogList Tests snapshot matches 1`] = `
+<div
+  className="sc-bdnylx fzNgoh"
+>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="medium-icon.png"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Medium
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://medium.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="dev-to.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Dev.to
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://dev.to/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="sitepoint.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Sitepoint
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.sitepoint.com/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="smashing-magazine.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Smashing Magazine
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.smashingmagazine.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="rwieruch-icon.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      RobinWieruch
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.robinwieruch.de/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Bloglist T snapshot matches 1`] = `
+<div
+  className="sc-bdnylx fzNgoh"
+>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="medium-icon.png"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Medium
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://medium.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="dev-to.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Dev.to
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://dev.to/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="sitepoint.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Sitepoint
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.sitepoint.com/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="smashing-magazine.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Smashing Magazine
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.smashingmagazine.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="rwieruch-icon.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      RobinWieruch
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.robinwieruch.de/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Bloglist Tests snapshot matches 1`] = `
+<div
+  className="sc-bdnylx fzNgoh"
+>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="medium-icon.png"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Medium
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://medium.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="dev-to.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Dev.to
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://dev.to/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="sitepoint.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Sitepoint
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.sitepoint.com/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="smashing-magazine.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Smashing Magazine
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.smashingmagazine.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="rwieruch-icon.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      RobinWieruch
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.robinwieruch.de/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Bloglist snapshot matches 1`] = `
+<div
+  className="sc-bdnylx fzNgoh"
+>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="medium-icon.png"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Medium
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://medium.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="dev-to.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Dev.to
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://dev.to/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="sitepoint.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Sitepoint
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.sitepoint.com/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="smashing-magazine.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Smashing Magazine
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.smashingmagazine.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="rwieruch-icon.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      RobinWieruch
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.robinwieruch.de/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`snapshot snapshot matches 1`] = `
+<div
+  className="sc-bdnylx fzNgoh"
+>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="medium-icon.png"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Medium
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://medium.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="dev-to.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Dev.to
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://dev.to/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="sitepoint.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Sitepoint
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.sitepoint.com/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="smashing-magazine.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      Smashing Magazine
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.smashingmagazine.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="sc-gtssRu ZoVIe"
+  >
+    <img
+      className="sc-dlnjPT jMGHbI"
+      data-testid="blogIcon"
+      src="rwieruch-icon.svg"
+    />
+    <p
+      className="sc-hKFyIo itAKev"
+    >
+      RobinWieruch
+    </p>
+    <a
+      className="sc-eCApGN cUAoBS"
+      data-testid="blogLink"
+      href="https://www.robinwieruch.de/blog"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <svg
+        fill="currentColor"
+        height="2rem"
+        size="2rem"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="2rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;

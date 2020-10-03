@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeading Tests Snapshot Test 1`] = `
+<div
+  className="sc-bdnylx iWWFrL"
+>
+  <h1 />
+</div>
+`;

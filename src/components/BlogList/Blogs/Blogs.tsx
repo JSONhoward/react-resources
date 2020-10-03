@@ -11,9 +11,9 @@ type Props = {
 const Blogs: React.FC<Props> = ({ icon, title, url }) => {
     return (
         <StyledBlogs>
-            <BlogIcon src={icon} />
+            <BlogIcon data-testid='blogIcon' src={icon} />
             <BlogTitle>{title}</BlogTitle>
-            <BlogLink onClick={() => window.open(url, '_blank')}><FaExternalLinkAlt size={'2rem'} /></BlogLink>
+            <BlogLink data-testid='blogLink' href={url} target='_blank' rel='noreferrer noopener'><FaExternalLinkAlt size={'2rem'} /></BlogLink>
         </StyledBlogs>
     )
 }

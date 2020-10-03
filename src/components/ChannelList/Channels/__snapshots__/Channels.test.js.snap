@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot snapshot matches 1`] = `
+<div
+  className="sc-bdnylx ieteWa"
+>
+  <div
+    className="sc-dlnjPT fHNJLY"
+  >
+    <p
+      className="sc-hKFyIo erTVFG"
+    />
+    <a
+      data-testid="channelId"
+      href="https://www.youtube.com/channel/undefined"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        data-testid="channelIcon"
+      />
+    </a>
+  </div>
+  <div
+    className="sc-eCApGN eFOPNJ"
+  >
+    <a
+      href="/channel/undefined"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-iCoHVE fuLZAX"
+      >
+        <p>
+          More Videos
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;

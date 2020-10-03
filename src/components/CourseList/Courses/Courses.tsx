@@ -11,9 +11,9 @@ type Props = {
 const Courses: React.FC<Props> = ({ icon, title, url }) => {
     return (
         <StyledCourses>
-            <CourseIcon src={icon} />
+            <CourseIcon data-testid='courseIcon' src={icon} />
             <CourseTitle>{title}</CourseTitle>
-            <CourseLink onClick={() => window.open(url, '_blank')}><FaExternalLinkAlt size={'2rem'} /></CourseLink>
+            <CourseLink data-testid='courseLink' href={url} target='_blank' rel='noreferrer noopener'><FaExternalLinkAlt size={'2rem'} /></CourseLink>
         </StyledCourses>
     )
 }

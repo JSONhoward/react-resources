@@ -7,13 +7,13 @@ import { webDevChannels } from '../../utils/constants';
 const DevIcons = () => {
     const icons = webDevChannels.map((el, i) => {
         return (
-            <Icon key={i} icon={webDevChannels[i].icon} title={webDevChannels[i].name} />
+            <Icon key={i} icon={el.icon} title={el.name} />
         )
     })
 
     return (
         <StyledDevIcons>
-        {icons}
+            {icons}
         </StyledDevIcons>
     )
 }

@@ -32,7 +32,7 @@ color: ${({theme: {ReactDark}}) => ReactDark};
 text-shadow: 1px 1px 5px rgba(0,0,0,.25);
 `
 
-export const CourseLink = styled('div')`
+export const CourseLink = styled('a')`
 position: absolute;
 bottom: 0;
 right: 0;

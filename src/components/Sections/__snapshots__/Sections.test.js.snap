@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sections Tests Snapshot Test 1`] = `
+<div
+  className="sc-bdnylx fuQbuA"
+>
+  <div
+    className="sc-eCApGN ixvGpU"
+  >
+    <p
+      className="sc-gtssRu dzmwPh"
+    >
+      <a
+        href="/channels"
+        onClick={[Function]}
+      >
+        Youtube Channels
+      </a>
+    </p>
+    <div
+      className="sc-hKFyIo cUiZjG"
+    >
+      <a
+        data-testid="sectionChannelLink0"
+        href="/channels"
+        onClick={[Function]}
+      >
+        <img
+          alt="Web Dev Simplified"
+          className="sc-dlnjPT jxHESt"
+          data-testid="sectionChannelIcon0"
+          src="web-dev-simplified-icon.jpg"
+        />
+      </a>
+      <a
+        data-testid="sectionChannelLink1"
+        href="/channels"
+        onClick={[Function]}
+      >
+        <img
+          alt="Dev Ed"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionChannelIcon1"
+          src="dev-ed-icon.jpg"
+        />
+      </a>
+      <a
+        data-testid="sectionChannelLink2"
+        href="/channels"
+        onClick={[Function]}
+      >
+        <img
+          alt="Net Ninja"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionChannelIcon2"
+          src="net-ninja-icon.jpg"
+        />
+      </a>
+      <a
+        data-testid="sectionChannelLink3"
+        href="/channels"
+        onClick={[Function]}
+      >
+        <img
+          alt="Fireship"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionChannelIcon3"
+          src="fireship-icon.jpg"
+        />
+      </a>
+      <a
+        data-testid="sectionChannelLink4"
+        href="/channels"
+        onClick={[Function]}
+      >
+        <img
+          alt="Free Code Camp"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionChannelIcon4"
+          src="free-code-camp-icon.jpg"
+        />
+      </a>
+      <a
+        data-testid="sectionChannelLink5"
+        href="/channels"
+        onClick={[Function]}
+      >
+        <img
+          alt="Clever Programmer"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionChannelIcon5"
+          src="clever-programmer-icon.jpg"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="sc-eCApGN ixvGpU"
+  >
+    <p
+      className="sc-gtssRu dzmwPh"
+    >
+      <a
+        href="/courses"
+        onClick={[Function]}
+      >
+        Online Courses
+      </a>
+    </p>
+    <div
+      className="sc-hKFyIo cUiZjG"
+    >
+      <a
+        data-testid="sectionCourseLink0"
+        href="/courses"
+        onClick={[Function]}
+      >
+        <img
+          alt="Learn React in 1 Hour by Building a Movie Search App"
+          className="sc-dlnjPT gNWSff"
+          data-testid="sectionCourseIcon0"
+          src="free-code-camp-icon.jpg"
+        />
+      </a>
+      <a
+        data-testid="sectionCourseLink1"
+        href="/courses"
+        onClick={[Function]}
+      >
+        <img
+          alt="React - The Complete Guide (incl Hooks, React Router, Redux)"
+          className="sc-dlnjPT dUntHe"
+          data-testid="sectionCourseIcon1"
+          src="udemy-icon.svg"
+        />
+      </a>
+      <a
+        data-testid="sectionCourseLink2"
+        href="/courses"
+        onClick={[Function]}
+      >
+        <img
+          alt="Learn React.js: Part I/Part II"
+          className="sc-dlnjPT dUntHe"
+          data-testid="sectionCourseIcon2"
+          src="codecademy.svg"
+        />
+      </a>
+      <a
+        data-testid="sectionCourseLink3"
+        href="/courses"
+        onClick={[Function]}
+      >
+        <img
+          alt="Fullstack Advanced React & GraphQL"
+          className="sc-dlnjPT dUntHe"
+          data-testid="sectionCourseIcon3"
+          src="wes-bos-icon.png"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="sc-eCApGN ixvGpU"
+  >
+    <p
+      className="sc-gtssRu dzmwPh"
+    >
+      <a
+        href="/blogs"
+        onClick={[Function]}
+      >
+        Blogs
+      </a>
+    </p>
+    <div
+      className="sc-hKFyIo cUiZjG"
+    >
+      <a
+        data-testid="sectionBlogLink0"
+        href="/blogs"
+        onClick={[Function]}
+      >
+        <img
+          alt="Medium"
+          className="sc-dlnjPT jxHESt"
+          data-testid="sectionBlogIcon0"
+          src="medium-icon.png"
+        />
+      </a>
+      <a
+        data-testid="sectionBlogLink1"
+        href="/blogs"
+        onClick={[Function]}
+      >
+        <img
+          alt="Dev.to"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionBlogIcon1"
+          src="dev-to.svg"
+        />
+      </a>
+      <a
+        data-testid="sectionBlogLink2"
+        href="/blogs"
+        onClick={[Function]}
+      >
+        <img
+          alt="Sitepoint"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionBlogIcon2"
+          src="sitepoint.svg"
+        />
+      </a>
+      <a
+        data-testid="sectionBlogLink3"
+        href="/blogs"
+        onClick={[Function]}
+      >
+        <img
+          alt="Smashing Magazine"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionBlogIcon3"
+          src="smashing-magazine.svg"
+        />
+      </a>
+      <a
+        data-testid="sectionBlogLink4"
+        href="/blogs"
+        onClick={[Function]}
+      >
+        <img
+          alt="RobinWieruch"
+          className="sc-dlnjPT eMTUHU"
+          data-testid="sectionBlogIcon4"
+          src="rwieruch-icon.svg"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;

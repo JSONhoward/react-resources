@@ -40,7 +40,9 @@ const Header = () => {
                 </ul>
             </MobileMenu>
             <GithubLink>
-                <p onClick={() => window.open('https://github.com/JSONhoward/react-resources', '_blank')}>GitHub</p>
+                <a href='https://github.com/JSONhoward/react-resources' target='_blank' rel='noopener noreferrer'>
+                    <p>GitHub</p>
+                </a>
                 <FaExternalLinkAlt size={'10px'} />
             </GithubLink>
         </StyledHeader>
